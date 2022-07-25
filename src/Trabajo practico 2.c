@@ -45,7 +45,7 @@ int main() {
 			case 2:
 				//printf("Seleccione usuario a modificar \n");
 				//ePasajero_imprimirTodos(listaDePasajeros,tam,OCUPADO);
-				ePasajero_BuscarIndexId(listaDePasajeros,tam);
+				//ePasajero_BuscarIndexId(listaDePasajeros,tam);
 				ePasajero_Modificar(listaDePasajeros,tam);
 				break;
 			case 3:

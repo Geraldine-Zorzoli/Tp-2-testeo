@@ -270,7 +270,7 @@ int ePasajero_Modificar(ePasajero listaDePasajeros[], int tam) {
 			//BUSCA UN INDEX POR ID - RETORNA -1 SI NO ENCUENTRA EL ID EN EL ARRAY
 			indexModificacion = ePasajero_BuscarIndexId(listaDePasajeros,tam);
 			if (indexModificacion < 0) {
-				//HUBO UN ERROR BUSCANDO EL INDEX
+				puts("HUBO UN ERROR BUSCANDO EL INDEX");
 				rtn = -1;
 			} else {
 				auxiliarPasajero = listaDePasajeros[indexModificacion]; //Si el auxiliar es = index entonces modifico
